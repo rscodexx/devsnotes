@@ -92,12 +92,12 @@ $ composer install
 
 # Abra o arquivo .env na pasta raiz do projeto e altere para os dados do seu banco:
 
-DB_CONNECTION=mysql ⚙ Tipo do banco de dados
-DB_HOST=127.0.0.1 ⚙ IP do banco de dados.
-DB_PORT=3306 ⚙ Porta do banco de dados.
-DB_DATABASE=devsnotes ⚙ Nome do banco de dados.
-DB_USERNAME=root ⚙ Nome do usuário do banco de dados.
-DB_PASSWORD=root ⚙ Senha do banco de dados.
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=devsnotes
+DB_USERNAME=root
+DB_PASSWORD=root ⚙
 
 # É necessário importar as tabelas no seu banco de dados que estão na pasta db.
 ```
@@ -114,7 +114,7 @@ $ Método = GET
 
 $ <url>/api/notes
 ```
-![Resultado](https://i.imgur.com/88Mx1Mq.png)
+![Resultado](https://raw.githubusercontent.com/rscodexx/devsnotes/master/examples/result1.png)
 
 #### 🎲 Retornando uma anotação específica.
 
@@ -128,7 +128,7 @@ $ Método = GET
 
 $ <url>/api/notes/{id}
 ```
-![Resultado](https://i.imgur.com/88Mx1Mq.png)
+![Resultado](https://raw.githubusercontent.com/rscodexx/devsnotes/master/examples/result2.png)
 
 #### 🎲 Enviando uma anotação.
 
@@ -142,7 +142,7 @@ $ Método = POST
 
 $ <url>/api/note?title={$title}&body={$body}
 ```
-![Resultado](https://i.imgur.com/88Mx1Mq.png)
+![Resultado](https://raw.githubusercontent.com/rscodexx/devsnotes/master/examples/result2.png)
 
 #### 🎲 Editando uma anotação.
 
@@ -156,7 +156,7 @@ $ Método = PUT
 
 $ <url>/api/note?title={$title}&body={$body}
 ```
-![Resultado](https://i.imgur.com/88Mx1Mq.png)
+![Resultado](https://raw.githubusercontent.com/rscodexx/devsnotes/master/examples/result3.png)
 
 #### 🎲 Excluindo uma anotação.
 
@@ -177,7 +177,9 @@ $ <url>/api/note/{id}
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Back-End**  ([PHP7](https://www.php.net/docs.php)  +  [LARAVEL](https://laravel.com/) )
+#### **Back-End**
+
+<img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/> <img alt="Laravel" src="https://img.shields.io/badge/laravel%20-%23FF2D20.svg?&style=for-the-badge&logo=laravel&logoColor=white"/>
 
 
 ---
